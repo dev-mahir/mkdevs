@@ -1,0 +1,152 @@
+
+.blue{
+    color: var(--blue);
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 53px;
+}
+
+ul.mk-menu li {
+    display: inline-block;
+}
+
+ul.mk-menu li:last-child a {
+    color: #fff;
+}
+
+.mk-logo {
+    width: 200px;
+}
+
+.mk-menu li a {
+    color: #245;
+    font-size: 15px;
+    font-weight: 500;
+    display: block;
+    padding: 2px 15px;
+}
+
+
+
+
+/* banner area  */
+.banner-section{
+    position: relative;
+    padding: 100px;
+    z-index: 1;
+}
+
+a.mk-btn.b-btn {
+    background: transparent;
+    color: #000;
+    border: 1px solid red;
+}
+
+
+
+/* banner area  */
+
+
+/* Demo Area  */
+.demo-section{
+    background: #faf9fe;
+    padding: 80px 0;
+}
+.filter-menu ul li {
+    display: inline-block;
+    padding: 5px 18px;
+    background: var(--red);
+    border-radius: 2px;
+    color: #fff;
+    margin: 25px 2px;
+    cursor: pointer;
+}
+
+.filter-menu ul li.active{
+    background: var(--blue);
+}
+
+.demo-info {
+    height: 360px;
+    background: #fbfaff;
+    box-shadow: 0 0 10px -2px #ccc;
+}
+
+.demo-info img {
+    height: 310px;
+    object-position: top;
+}
+
+.demo-info a {
+    color: var(--red);
+}
+
+.demo-txt {
+    margin-top: 14px;
+    padding: 0 14px;
+}
+
+.demo-txt h4 {
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: capitalize !important;
+}
+
+.mix {
+    width: 22.6%;
+    float: left;
+    margin: 13px;
+    box-sizing: border-box;
+    height: fit-content;
+}
+
+/* Demo Area  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer{
+    background: #245;
+    padding: 30px 0;
+}
+
+
